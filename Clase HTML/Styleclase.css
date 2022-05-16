@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+#banner{
+    width: 30%;
+    height: 10%;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(99, 85, 85);
+    padding-bottom: 2%;
+}
+.frase{
+    text-align: center;
+    color: rgb(99, 85, 85);
+    padding-top: 2%;
+}
+.subfrase{
+    text-align: center;
+}

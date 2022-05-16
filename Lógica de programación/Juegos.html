@@ -1,0 +1,46 @@
+<meta charset="UTF 8">
+
+<h1>Juegos</h1>
+
+
+<script>
+
+    function saltarlinea(){
+        document.write("<br>");
+        document.write("<br>");  
+    }
+    
+    function imprimir(frase){
+        document.write(frase);
+        saltarlinea();
+    }
+
+
+    var numeroPensado = math.round(math.random()*10);
+    var intentos = 3;
+    var contador = 1;
+
+    while(contador <= intentos){
+        var numeroLanzado = parseInt(prompt("Ingrese un numero entre 0-10"));
+        if(numeroPensado == numeroLanzado){
+            alert("Usted acerto en el intento " + contador + "el numero pensado era: " + numeroPensado);
+            break;
+        }
+        else{
+            alert("Usted erro");
+        }
+        contador++;
+    }
+
+    if(numeroPensado == numeroLanzado){
+            imprimir("Usted acerto en el intento " + contador + "el numero pensado era: " + numeroPensado);
+        }
+        else{
+            imprimir("Usted erro, el numero pensado era: " + numeroPensado);
+        }
+
+    imprimir("Fin");
+
+</script>
+
+

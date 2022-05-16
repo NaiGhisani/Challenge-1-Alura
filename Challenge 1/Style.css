@@ -1,0 +1,141 @@
+body{
+    background:rgb(212, 255, 147);
+    position: relative;
+    width: "1440";
+    height: "1024";    
+}
+.logo{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+    background: rgb(212, 255, 147);
+    height: "48";
+    width: "31.085588455200195";
+    left: 44px;
+    top: 0px;
+    border-radius: 0px;
+}
+.Texto{
+    position: absolute;
+    width: "577";
+    height: "48";
+    left: 80px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 48px;
+    color: #8f959c;
+
+}
+.Textomodficado{
+    border-radius: 32px;
+    background: rgb(236, 255, 209);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.munheco{
+    flex: 1;
+    height: 304px;
+    width: 336px;
+    left: 850px;
+    top: 60px;
+    border-radius: 0px;
+    position: absolute;
+
+}
+.rectangulo{
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 850px;
+    top: 350px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #8f959c;
+}
+.botones{
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 700px;
+}
+.boton{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    padding: 24px;
+    gap: 8px;
+    left: 70px;
+    top: 550px;
+    font-size: 20px;
+    font-style: normal;
+    background: #1f520b;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.boton2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    padding: 24px;
+    gap: 8px;
+    left: 450px;
+    top: 550px;
+    font-size: 20px;
+    background: #88a17d;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Boton3{
+    box-sizing: border-box;
+    left: 500px;
+    position: absolute;
+    padding: 24px;
+    gap: 8px;
+    left: 930px;
+    top: 530px;
+    background: #415e36;
+    border-radius: 24px;
+}
+
+#entradaTexto{
+    font-size: 25px;
+}
+
+#encriptados{
+    background-color: white;
+    border: 1px solid black;
+}
+footer{
+    background-color: rgb(162, 179, 138);
+    width: "50";
+    height: "50";
+}
+.nombre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-decoration: rgb(33, 104, 65);
+}
